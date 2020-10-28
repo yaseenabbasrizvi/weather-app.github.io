@@ -28,7 +28,7 @@ $(document).ready(function() {
     var desc= data.weather[0].description;
     var icon= data.weather[0].icon;
     
-    $('#city').html(city);
+    document.getElementById("city").innerHTML="Weather in your city "+city+;
     $('#temp').html(temp);
     $('#desc').html(desc);
     $('#icon').attr('src',icon);
