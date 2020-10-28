@@ -16,12 +16,13 @@ span{
 .container {
   max-width: 550px;
   height: 100vh;
-  border: 1px solid black;
-  margin: 0 auto;
   display: grid; 
   grid-template-rows: 20% 80%;
   text-align: center;
   padding: 25px 5px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .degrees{
   display: grid;
